@@ -1,0 +1,141 @@
+body{
+    width: 1024px;
+    height: 600px;
+    Top: 622px;
+    left: -2277px;
+    background: #e5e5e5;
+}
+#vector{
+
+    position: absolute;
+    left:10%;
+    top: 5%;
+    bottom: 0%;
+    background: #0A3871;
+}
+#textoaqui{
+
+background:transparent;
+position: absolute;
+width: 350px;
+height: 30px;
+left: 180px;
+top: 120px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 150%;
+color: #0A3871;
+border: none;
+}
+#textoaqui::placeholder{
+    color: #0A3871;
+}
+#derecha{
+position: absolute;
+width: 280px;
+height: 580px;
+left: 710px;
+top: 10px;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+#muñeco{   
+position:absolute;
+width: 236px;
+height: 204px;
+left: 20px;
+top: 150px;
+}
+#ningunmensaje{
+    width: 210px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    line-break: 100%;
+    /* or 29px */
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    color: #343A40;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 380px;
+    margin-left: 35px;
+}
+#desencriptar{
+    width: 210px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+/* Gray/gray-400 */
+
+color: #495057;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-top:5px;
+margin-left:30px;
+} 
+
+.encriptar{
+    /* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 250px;
+height: 60px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order:initial;
+flex-grow: 0;
+margin-top: 520px;
+margin-left: 80px;
+color:#FFFFFF;
+font-family: 'Inter';
+font-style:normal
+font-weight: 400;
+font-size: 30px;
+line-height: 150%;
+}
